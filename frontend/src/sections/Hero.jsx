@@ -1,4 +1,7 @@
 import React from 'react'
+import { Canvas } from '@react-three/fiber'
+import { PerspectiveCamera } from '@react-three/drei'
+import HackerRoom from '../components/HackerRoom'
 
 const Hero = () => {
   return (
@@ -7,7 +10,14 @@ const Hero = () => {
             <p className='sm:text-3xl text-2xl font-medium text-white text-center font-generalsans'>Hi, I am Ramit Goyal <span className='waving-hand'>👋</span></p>
             <p className='hero_tag text-gray_gradient'>Full Stack Developer</p>
         </div>
-        <div className='w-full h-full absolute inset-0 '></div>
+        <div className='w-full h-full absolute inset-0 '>
+            <Canvas className='w-full h-full'>
+              <PerspectiveCamera makeDefault position={[0, 0, 30]} />
+              <ambientLight intensity={0.5} />
+              <directionalLight position={[10, 10, 5]} intensity={1} />
+              <HackerRoom />
+            </Canvas>
+        </div>
     </section>
   )
 }
