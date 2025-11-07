@@ -36,7 +36,7 @@ export const clientReviews = [
     position: 'Founder of TechGear Shop',
     img: 'assets/review2.png',
     review:
-      "Adrian's expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He's a true professional! Fantastic work.",
+      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
   },
   {
     id: 3,
@@ -44,7 +44,7 @@ export const clientReviews = [
     position: 'Project Manager at UrbanTech ',
     img: 'assets/review3.png',
     review:
-      "I can't say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
   },
   {
     id: 4,
@@ -52,57 +52,18 @@ export const clientReviews = [
     position: 'CEO of BrightStar Enterprises',
     img: 'assets/review4.png',
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.",
-  },
-];
-
-export const certifications = [
-  {
-    id: 1,
-    title: 'Hack the Vault',
-    issuer: 'Hackathon/Competition',
-    date: '2024',
-    description: 'Successfully participated and demonstrated problem-solving skills in the Hack the Vault competition.',
-    img: '/assets/Certificates/Hack the vault certificate.jpg',
-    pdf: '/assets/Certificates/Hack the vault certificate.jpg',
-  },
-  {
-    id: 2,
-    title: 'Internshala Student Partner',
-    issuer: 'Internshala',
-    date: '2024',
-    description: 'Served as an Internshala Student Partner, promoting internship opportunities and career development among students.',
-    img: '/assets/Certificates/internshala student partner.jpg',
-    pdf: '/assets/Certificates/internshala student partner.jpg',
-  },
-  {
-    id: 3,
-    title: 'Zero to One Certificate',
-    issuer: 'Training Program',
-    date: '2024',
-    description: 'Completed comprehensive training program covering essential skills for building products from scratch.',
-    img: '/assets/Certificates/zero to one certificate.jpg',
-    pdf: '/assets/Certificates/zero to one certificate.jpg',
-  },
-  {
-    id: 4,
-    title: 'Zinnovio 3.0',
-    issuer: 'Innovation Event',
-    date: '2024',
-    description: 'Participated in Zinnovio 3.0 innovation and technology event, showcasing creative solutions and technical expertise.',
-    img: '/assets/Certificates/zinnovio 3.0 certificate.jpg',
-    pdf: '/assets/Certificates/zinnovio 3.0 certificate.jpg',
+      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
   },
 ];
 
 export const myProjects = [
   {
     title: 'RemedyEase - Healthcare Management Platform',
-    desc: 'RemedyEase is a comprehensive healthcare management platform that connects patients with healthcare providers. It streamlines appointment booking, medical records management, and telemedicine consultations, making healthcare more accessible and efficient.',
+    desc: 'RemedyEase is a comprehensive healthcare management platform designed to connect patients with healthcare providers. It streamlines appointment booking, medical records management, and consultation services, making healthcare more accessible and efficient.',
     subdesc:
-      'Built with React.js, Node.js, Express.js, and MongoDB, RemedyEase provides a seamless experience for both patients and healthcare providers with real-time updates and secure data management.',
-    href: 'https://youtu.be/U8LPEvGrxqo',
-    texture: '/textures/project/RemedyEase - Google Chrome 2025-11-06 12-52-22.mp4',
+      'Built with modern web technologies including React, Node.js, Express, and MongoDB, RemedyEase provides a seamless experience for both patients and healthcare professionals.',
+    href: 'https://remedy-ease-new.vercel.app/',
+    texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo1.png',
     logoStyle: {
       backgroundColor: '#2A1816',
@@ -134,12 +95,12 @@ export const myProjects = [
     ],
   },
   {
-    title: 'MyPath - Competitive Exam Preparation Platform',
-    desc: 'MyPath is an educational platform designed to help students from 8th grade to graduates prepare for competitive and olympiad exams. It offers comprehensive study materials, practice tests, and performance analytics to track progress.',
+    title: 'MyPath - Educational Platform',
+    desc: 'MyPath is an innovative educational platform that helps students explore competitive exams and olympiad opportunities from grade 8 to graduate level. It provides comprehensive resources, guidance, and career path recommendations.',
     subdesc:
-      'Built with modern web technologies, MyPath provides an interactive learning experience with personalized study plans, mock tests, and detailed performance insights to help students excel in their exams.',
-    href: 'https://youtu.be/ZD5CecxSj4o',
-    texture: '/textures/project/frontend - Google Chrome 2025-11-07 21-56-49.mp4',
+      'Designed to empower students in their academic journey, MyPath offers curated content and tools to help them make informed decisions about their educational path.',
+    href: 'https://mypath-nine.vercel.app/',
+    texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo2.png',
     logoStyle: {
       backgroundColor: '#13202F',
@@ -160,23 +121,23 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: 'MongoDB',
-        path: '/assets/mongodb.png',
+        name: 'Node.js',
+        path: '/assets/node.js',
       },
       {
         id: 4,
-        name: 'Node.js',
-        path: '/assets/node.js',
+        name: 'MongoDB',
+        path: '/assets/mongodb.png',
       },
     ],
   },
   {
     title: 'Teacher Management System',
-    desc: 'A comprehensive Teacher Management System designed to streamline administrative tasks, manage student records, track attendance, handle assignments, and facilitate communication between teachers, students, and parents.',
+    desc: 'A comprehensive teacher management system designed to streamline administrative tasks in educational institutions. It handles teacher profiles, class assignments, attendance tracking, and performance evaluations.',
     subdesc:
-      'Built with a focus on efficiency and user experience, this system helps educational institutions manage their teaching staff, student data, grades, and scheduling with ease, enhancing overall productivity.',
-    href: 'https://youtu.be/5AKnv7CXboI',
-    texture: '/textures/project/SIH Teacher - Google Chrome 2025-11-07 21-52-43.mp4',
+      'Built to improve efficiency in school administration, this system provides a centralized platform for managing all teacher-related activities and data.',
+    href: 'https://github.com/ramit8508/Teacher-managment-system',
+    texture: '/textures/project/project3.mp4',
     logo: '/assets/project-logo3.png',
     logoStyle: {
       backgroundColor: '#60f5a1',
@@ -199,22 +160,22 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: 'MongoDB',
-        path: '/assets/mongodb.png',
+        name: 'Express',
+        path: '/assets/express.png',
       },
       {
         id: 4,
-        name: 'Express',
-        path: '/assets/express.png',
+        name: 'MongoDB',
+        path: '/assets/mongodb.png',
       },
     ],
   },
   {
-    title: '3D Portfolio - Interactive Personal Website',
-    desc: 'A stunning 3D interactive portfolio website built with Three.js and React. Features immersive 3D animations, smooth transitions, and an engaging user experience that showcases projects and skills in a unique and memorable way.',
+    title: 'Portfolio - Personal Website',
+    desc: 'A modern, interactive 3D portfolio website showcasing my projects, skills, certifications, and professional experience. Built with cutting-edge web technologies to create an engaging and memorable user experience.',
     subdesc:
-      'Created with React Three Fiber, GSAP animations, and Tailwind CSS, this portfolio demonstrates advanced web development skills with 3D graphics, responsive design, and modern UI/UX principles.',
-    href: 'https://youtu.be/V4kf6bcu0sE',
+      'Features stunning 3D animations, interactive elements, and a responsive design. Built with React, Three.js, Tailwind CSS, and GSAP for smooth animations.',
+    href: '#',
     texture: '/textures/project/RamitGoyal.mp4',
     logo: '/assets/project-logo4.png',
     logoStyle: {
@@ -236,13 +197,13 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: 'Figma',
-        path: '/assets/figma.png',
+        name: 'Three.js',
+        path: '/assets/react.svg',
       },
       {
         id: 4,
-        name: 'Node.js',
-        path: '/assets/node.js',
+        name: 'GSAP',
+        path: '/assets/react.svg',
       },
     ],
   },
@@ -262,19 +223,19 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Internshala',
-    pos: 'Student Partner',
+    name: 'Internshala Student Partner',
+    pos: 'Campus Ambassador',
     duration: '2024',
-    title: "Served as an Internshala Student Partner, promoting internship opportunities and career development among students. Successfully organized campus events and helped fellow students find valuable internship opportunities.",
+    title: "Selected as Internshala Student Partner representing the platform at my college. Responsible for promoting internship opportunities and connecting students with career development resources.",
     icon: '/assets/interns.png',
     animation: 'victory',
   },
   {
     id: 2,
-    name: 'Hackathons',
-    pos: 'Finalist & Winner',
+    name: 'Hackathon Finalist',
+    pos: '4+ Hackathon Finals',
     duration: '2023 - 2024',
-    title: "Participated in 4+ hackathon finals, showcasing innovative solutions and technical expertise. Demonstrated strong problem-solving skills and ability to work under pressure in competitive environments.",
+    title: "Reached finals in over 4 major hackathons, showcasing problem-solving skills and innovative thinking. Collaborated with teams to build creative solutions under time constraints.",
     icon: '/assets/hackathon.png',
     animation: 'clapping',
   },
@@ -283,87 +244,70 @@ export const workExperiences = [
     name: 'Java Coding Challenge',
     pos: 'Winner',
     duration: '2024',
-    title: "Won 2nd place in a competitive Java coding challenge, demonstrating strong programming fundamentals, algorithmic thinking, and efficient problem-solving abilities in Java.",
+    title: "Won 2nd place in a competitive Java coding challenge, demonstrating strong programming fundamentals and algorithm optimization skills.",
     icon: '/assets/award.avif',
     animation: 'salute',
   },
 ];
 
 export const techStack = [
-  {
-    id: 1,
-    name: 'React',
-    path: '/assets/react.svg',
-  },
-  {
-    id: 2,
-    name: 'Node.js',
-    path: '/assets/node.js',
-  },
-  {
-    id: 3,
-    name: 'Tailwind',
-    path: '/assets/tailwindcss.png',
-  },
-  {
-    id: 4,
-    name: 'Express',
-    path: '/assets/express.png',
-  },
-  {
-    id: 5,
-    name: 'MongoDB',
-    path: '/assets/mongodb.png',
-  },
-  {
-    id: 6,
-    name: 'Figma',
-    path: '/assets/figma.png',
-  },
+  { id: 1, name: 'React', path: '/assets/react.svg' },
+  { id: 2, name: 'Node.js', path: '/assets/node.js' },
+  { id: 3, name: 'Tailwind CSS', path: '/assets/tailwindcss.png' },
+  { id: 4, name: 'Express', path: '/assets/express.png' },
+  { id: 5, name: 'MongoDB', path: '/assets/mongodb.png' },
+  { id: 6, name: 'Figma', path: '/assets/figma.png' },
 ];
 
 export const programmingLanguages = [
-  {
-    id: 1,
-    name: 'C',
-    path: '/assets/c.png',
-  },
-  {
-    id: 2,
-    name: 'C++',
-    path: '/assets/c++.png',
-  },
-  {
-    id: 3,
-    name: 'Python',
-    path: '/assets/python.png',
-  },
-  {
-    id: 4,
-    name: 'JavaScript',
-    path: '/assets/javascript.webp',
-  },
+  { id: 1, name: 'C', path: '/assets/c.png' },
+  { id: 2, name: 'C++', path: '/assets/c++.png' },
+  { id: 3, name: 'Python', path: '/assets/python.png' },
+  { id: 4, name: 'JavaScript', path: '/assets/javascript.webp' },
 ];
 
 export const tools = [
+  { id: 1, name: 'Git', path: '/assets/git.png' },
+  { id: 2, name: 'GitHub', path: '/assets/github.png' },
+  { id: 3, name: 'VS Code', path: '/assets/vscode.png' },
+  { id: 4, name: 'Docker', path: '/assets/docker.png' },
+];
+
+export const certifications = [
   {
     id: 1,
-    name: 'Git',
-    path: '/assets/git.png',
+    title: 'Hack the Vault',
+    issuer: 'Hackathon',
+    date: '2024',
+    description: 'Winner of Hack the Vault hackathon competition',
+    img: '/assets/Certificates/Hack the vault certificate.jpg',
+    pdf: '/assets/Certificates/Hack the vault certificate.jpg',
   },
   {
     id: 2,
-    name: 'GitHub',
-    path: '/assets/github.svg',
+    title: 'Internshala Student Partner',
+    issuer: 'Internshala',
+    date: '2024',
+    description: 'Selected as Internshala Student Partner',
+    img: '/assets/Certificates/internshala student partner.jpg',
+    pdf: '/assets/Certificates/internshala student partner.jpg',
   },
   {
     id: 3,
-    name: 'VS Code',
-    path: '/assets/vscode.png',
+    title: 'Zero to One Certificate',
+    issuer: 'Zero to One',
+    date: '2024',
+    description: 'Completed Zero to One program',
+    img: '/assets/Certificates/zero to one certificate.jpg',
+    pdf: '/assets/Certificates/zero to one certificate.jpg',
   },
   {
     id: 4,
-    name: 'Docker',
-    path: '/assets/docker.png',
+    title: 'Zinnovio 3.0',
+    issuer: 'Zinnovio',
+    date: '2024',
+    description: 'Participated in Zinnovio 3.0 event',
+    img: '/assets/Certificates/zinnovio 3.0 certificate.jpg',
+    pdf: '/assets/Certificates/zinnovio 3.0 certificate.jpg',
   },
 ];

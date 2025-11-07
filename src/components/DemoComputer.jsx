@@ -12,7 +12,11 @@ const DemoComputer = (props) => {
   const { nodes, materials, animations } = useGLTF('/models/computer.glb');
   const { actions } = useAnimations(animations, group);
 
-  const txt = useVideoTexture(props.texture ? props.texture : '/textures/project/project1.mp4');
+  const txt = useVideoTexture(props.texture ? props.texture : '/textures/project/project1.mp4', {
+    muted: true,
+    loop: true,
+    start: true,
+  });
 
   useEffect(() => {
     if (txt) {
@@ -21,11 +25,13 @@ const DemoComputer = (props) => {
   }, [txt]);
 
   useGSAP(() => {
-    gsap.from(group.current.rotation, {
-      y: Math.PI / 2,
-      duration: 1,
-      ease: 'power3.out',
-    });
+    if (group.current) {
+      gsap.from(group.current.rotation, {
+        y: Math.PI / 2,
+        duration: 1,
+        ease: 'power3.out',
+      });
+    }
   }, [txt]);
 
   return (
