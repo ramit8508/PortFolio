@@ -233,7 +233,7 @@ export const workExperiences = [
   {
     id: 2,
     name: 'Hackathon Finalist',
-    pos: '4+ Hackathon Finals',
+    pos: '10+ Hackathon Finals',
     duration: '2024 - 2025',
     title: "Reached finals in over 4 major hackathons, showcasing problem-solving skills and innovative thinking. Collaborated with teams to build creative solutions under time constraints.",
     icon: '/assets/hackathon.png',
